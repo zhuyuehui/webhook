@@ -23,7 +23,7 @@ public class GitLabPushRequest extends ParentRequest{
     private String userName;
     private String userUsername;
     private String userAvatar;
-
+    private List<Commit> commits;
 
     private int totalCommitsCount;
 

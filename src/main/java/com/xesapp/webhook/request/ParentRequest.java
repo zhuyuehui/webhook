@@ -13,7 +13,7 @@ public abstract class ParentRequest {
     private String projectId;
     private Project project;
     private Repository repository;
-    private List<Commit> commits;
+
     @Data
     public static class Project{
         private Long id;
@@ -44,9 +44,6 @@ public abstract class ParentRequest {
         private String message;
         private ZonedDateTime zonedDateTime;
         private Author author;
-        private String[] added;
-        private String[] modified;
-        private String[] removed;
 
         @Data
         public static class Author{
