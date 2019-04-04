@@ -1,0 +1,7 @@
+
+server:
+  port: 8088
+
+vendor:
+  ding:
+    dingTalkUrl: "https://oapi.dingtalk.com/robot/send?access_token=f205d7ad90e2329c8ece2a4379bcb25173b528125b587216c08fa0d75d93e1fb"
