@@ -4,4 +4,4 @@ server:
 
 vendor:
   ding:
-    dingTalkUrl: "https://oapi.dingtalk.com/robot/send?access_token=f205d7ad90e2329c8ece2a4379bcb25173b528125b587216c08fa0d75d93e1fb"
+    dingTalkUrl: "https://oapi.dingtalk.com/robot/send?access_token=d8d13b801533e0d0e6bc74779f43d247d6374104b8538e3e95a0ee197dd90068"
