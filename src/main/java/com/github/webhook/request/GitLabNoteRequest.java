@@ -15,7 +15,7 @@ public class GitLabNoteRequest extends ParentRequest{
 
    private User user;
    private ObjectAttributes objectAttributes;
-
+   private MergeRequest mergeRequest;
 
    @Data
    public static  class User{
@@ -34,5 +34,12 @@ public class GitLabNoteRequest extends ParentRequest{
         private String lineCode;
         private String commitId;
         private String url;
+    }
+
+    @Data
+    public static class MergeRequest{
+       private String sourceBranch;
+       private String targetBranch;
+       private String title;
     }
 }
